@@ -32,12 +32,12 @@ SSH 为 Secure Shell 的缩写，由 IETF 的网络小组（Network Working Grou
 
 通过ssh命令可以远程登陆
 
-不指定用户:
+####  不指定用户:
 ```
     ssh 192.168.56.101
 ```
 
-指定用户:
+####  指定用户:
 ```
     ssh -l root 192.168.56.101
 ```
@@ -46,7 +46,8 @@ SSH 为 Secure Shell 的缩写，由 IETF 的网络小组（Network Working Grou
     ssh root@192.168.56.101
 ```
 
-如果修改过ssh登录端口的可以:
+
+####  如果修改过ssh登录端口的可以:
 
 ```
     ssh -p 123 192.168.56.101
